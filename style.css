@@ -1,0 +1,15 @@
+.row{
+    margin-top: 50px;
+}
+
+.container img{
+  max-height: 250px;
+  max-width: 250%;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#aboutImg{
+    all: none;
+}
