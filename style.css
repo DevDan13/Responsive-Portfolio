@@ -1,7 +1,22 @@
-.row{
-    margin-top: 50px;
-}
-
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .row{
+      margin-top: 40px;
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .container img{
   max-height: 250px;
   max-width: 250%;
@@ -10,6 +25,16 @@
   margin-bottom: 50px;
 }
 
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
 #aboutImg{
     all: none;
+}
+
+.card-title{
+    color: blueviolet;
 }
