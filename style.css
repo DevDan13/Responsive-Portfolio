@@ -36,6 +36,11 @@
     vertical-align: middle;
   }
 
+#pushFurther{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
 /* instruction to ensure the index.html image is untouched by the other instructions for img in the portfolio.html */ 
 #aboutImg{
     all: none;
@@ -105,3 +110,5 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
+
+  
