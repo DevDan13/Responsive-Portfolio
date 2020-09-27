@@ -25,3 +25,17 @@
 
 * portfolio has all 5 images in a card named portfolio and are formatted using both the bootstrap grid of rows, columns, and css.
   the class imgInstructions was used to contain those css instructions for all portfolio images.
+
+## Progress Block 3
+
+* Added social media links to index.html.
+
+* Link to Font Awesome was established in index.html to create twitter and facebook buttons.
+
+* Font Awesome css was added to style.css
+
+* Links to my personal facebook and twitter now work!
+
+* Eeplaced placeholder picture with my social media profile picture.  
+
+* Checked to make sure all html is semantically correct.

@@ -36,14 +36,10 @@
     vertical-align: middle;
   }
 
+/*pushes family image further for proper spacing*/
 #pushFurther{
     margin-left: 200px;
     margin-top: 30px;
-}
-
-/* instruction to ensure the index.html image is untouched by the other instructions for img in the portfolio.html */ 
-#aboutImg{
-    all: none;
 }
 
 .card-title{
@@ -110,5 +106,30 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
-
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
   
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  /* instruction to ensure the index.html image is untouched by the other instructions for img in the portfolio.html */ 
+#aboutImg{
+    margin-top: -50px;
+}
