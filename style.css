@@ -25,9 +25,21 @@
 .container img{
   max-height: 250px;
   max-width: 250%;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-right: 10px;
+
+}
+
+
+
+#aboutMeImg{
+  float: left;
+}
+
+.footer{
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
 }
 
 
@@ -122,11 +134,6 @@ input[type=text], select, textarea {
     background: #55ACEE;
     color: white;
   }
-  
-  /* instruction to ensure the index.html image is untouched by the other instructions for img in the portfolio.html */ 
-#aboutImg{
-    margin-top: -50px;
-}
 
 .linkFormat{
   float: left;

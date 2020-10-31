@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Responsive Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -14,47 +16,48 @@
     <!-- this navbar is shared between all three files.  contains links to the other pages and is collapsable.  set to be dark to better display on the page-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Daniel Cintron</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-          </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- this container contains a small grid containing an image and a block of text about the developer.  
          The image and text are formatted into two coulums in within the second row.-->
     <div class="container">
 
         <div class="row">
-            
+
             <div class="card" style="width: 75rem;" style="height: 50 rem">
                 <div class="card-body">
-                <h5 class="card-title"><strong>About Me</strong></h5>
-                <hr>
-                
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div id="aboutImg">
-                            <img src="https://pbs.twimg.com/profile_images/765396515443634176/D6vkGTQE_400x400.jpg" alt="Daniel Cintron">
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-8">
-                        <p>I am an aspiring full-stack web developer who currently only has an associates degree in Computer Science from Passaic County Community College.  After coming out of school and finding I didn't meet the expectations of many employers, I researched the Rutgers coding bootcamp and seek to graduate from the program.  I currently plan to become a Full-Stack web developer, however, I am open to the idea of taking to either front-end or back-end development.  Here I will post my works throughout the course, as well as any proud project made for friends and family.  </p>
+                    <h5 class="card-title"><strong>About Me</strong></h5>
+                    <hr>
+
+                    <div style="height: 50vh;">
+                        <img id="aboutMeImg"
+                            src="https://pbs.twimg.com/profile_images/765396515443634176/D6vkGTQE_400x400.jpg"
+                            alt="Daniel Cintron">
+                        <p>I am an aspiring full-stack web developer who currently only has an associates degree in
+                            Computer Science from Passaic County Community College. After coming out of school and
+                            finding I didn't meet the expectations of many employers, I researched the Rutgers coding
+                            bootcamp and seek to graduate from the program. I currently plan to become a Full-Stack web
+                            developer, however, I am open to the idea of taking to either front-end or back-end
+                            development. Here I will post my works throughout the course, as well as any proud project
+                            made for friends and family. </p>
                     </div>
 
-                </div>
-
-                <div class="row">
-                    <a href="https://www.facebook.com/daniel.cintron.129/" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/YourSalvation88" class="fa fa-twitter"></a>
-                </div>
+                    <!-- <div class="row">
+                            <a href="https://www.facebook.com/daniel.cintron.129/" class="fa fa-facebook"></a>
+                            <a href="https://twitter.com/YourSalvation88" class="fa fa-twitter"></a>
+                        </div> -->
                 </div>
 
             </div>
@@ -62,6 +65,16 @@
         </div>
 
     </div>
+
+    <footer class="footer foot">
+        <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/daniel.cintron.129/" ><i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/YourSalvation88"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p class='text-muted text-center'>&copy; Copyright</p>
+    </footer>
 
 
 </body>
