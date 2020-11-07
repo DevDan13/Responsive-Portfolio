@@ -2,33 +2,27 @@
     box-sizing: border-box;
   }
   
+
+body{
+  background-image: radial-gradient(#0f4c75, #3282b8);
+}
 .nav-color{
   color: #1b262c;
 }
  
-.color-palette{
-  background-image: linear-gradient(#0f4c75, #3282b8);
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-  .row{
-      margin-top: 40px;
-  }
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .container{
-      margin-top: 40px;
-  }
+
 .container img{
   max-height: 250px;
   max-width: 250%;
   margin-right: 10px;
 
 }
-
-
 
 #aboutMeImg{
   float: left;
@@ -49,6 +43,14 @@
 
 .card-title{
     color: blueviolet;
+}
+
+.card-color{
+  background: #bbe1fa;
+}
+
+.my-portfolio-container{
+  padding: 0px;
 }
 
 /* css that controls the forms in the conctact.html file */
@@ -80,9 +82,10 @@ input[type=text], select, textarea {
   }
   
   .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
   }
   
   .col-15 {
@@ -112,7 +115,10 @@ input[type=text], select, textarea {
     }
   }
   .fa {
-    padding: 20px;
+    background: #1b262c;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
     font-size: 30px;
     width: 60px;
     text-align: center;
@@ -122,16 +128,6 @@ input[type=text], select, textarea {
   
   .fa:hover {
       opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
   }
 
 .linkFormat{
@@ -165,11 +161,6 @@ hr{
   border-color: black;
 }
 
-/* .fit-card{
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-} */
+#footer-text{
+  color: white;
+}

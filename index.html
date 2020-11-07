@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="color-palette">
+<body>
     <!-- this navbar is shared between all three files.  contains links to the other pages and is collapsable.  set to be dark to better display on the page-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-color">
         <a class="navbar-brand" href="#">Daniel Cintron</a>
@@ -22,7 +22,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact.html">Contact</a>
                 <a class="nav-link" href="index.html">About</a>
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
@@ -32,11 +32,11 @@
 
     <!-- this container contains a small grid containing an image and a block of text about the developer.  
          The image and text are formatted into two coulums in within the second row.-->
-    <div class="container">
+    <div class="container my-portfolio-container">
 
         <div class="row">
 
-            <div class="card" style="width: 75rem;" style="height: 50 rem">
+            <div class="card card-color" style="width: 75rem;" style="height: 50rem;">
                 <div class="card-body">
                     <h5 class="card-title"><strong>About Me</strong></h5>
                     <hr>
@@ -54,10 +54,6 @@
                             made for friends and family. </p>
                     </div>
 
-                    <!-- <div class="row">
-                            <a href="https://www.facebook.com/daniel.cintron.129/" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/YourSalvation88" class="fa fa-twitter"></a>
-                        </div> -->
                 </div>
 
             </div>
@@ -77,10 +73,8 @@
             <a href="https://www.linkedin.com/in/daniel-cintron-2b93581b5/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
         </div>
-        <p class='text-muted text-center'>&copy; Copyright</p>
+        <p class='text-center' id="footer-text">&copy;Copyright DevDan13 2020</p>
     </footer>
-
-
 </body>
 
 </html>
