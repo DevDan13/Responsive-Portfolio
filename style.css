@@ -28,21 +28,15 @@ body{
   float: left;
 }
 
-/* .footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-} */
-
-
 .column img {
     margin-top: 8px;
     vertical-align: middle;
   }
 
 .card-title{
-    color: blueviolet;
+    color: #1b262c;
+    font-size: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .card-color{
@@ -53,11 +47,16 @@ body{
   padding: 0px;
 }
 
+#about-me-text{
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 /* css that controls the forms in the conctact.html file */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #bbe1fa;
     border-radius: 4px;
     resize: vertical;
   }
@@ -68,8 +67,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #0f4c75;
+    color: #bbe1fa;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -78,7 +77,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0f4c75;
   }
   
   .container {
@@ -116,7 +115,7 @@ input[type=text], select, textarea {
   }
   .fa {
     background: #1b262c;
-    color: white;
+    color: #bbe1fa;
     border-radius: 30px;
     padding: 15px;
     font-size: 30px;
