@@ -2,14 +2,13 @@
     box-sizing: border-box;
   }
   
-  /* Instructions for the rows, columns, container, and images found within the portfolio.html file.
-     code for the text color of the titles of each files card are shared. */
-  /* .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-   */
+.nav-color{
+  color: #1b262c;
+}
+ 
+.color-palette{
+  background-image: linear-gradient(#0f4c75, #3282b8);
+}
   .row{
       margin-top: 40px;
   }
@@ -35,12 +34,12 @@
   float: left;
 }
 
-.footer{
-  /* position: fixed;
+/* .footer{
+  position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%; */
-}
+  width: 100%;
+} */
 
 
 .column img {
@@ -105,7 +104,7 @@ input[type=text], select, textarea {
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other in contact page */
   @media screen and (max-width: 600px) {
     .col-15, .col-85, input[type=submit] {
       width: 100%;
@@ -165,3 +164,12 @@ hr{
   border-width: 5px;
   border-color: black;
 }
+
+/* .fit-card{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+} */
