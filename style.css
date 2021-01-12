@@ -79,6 +79,14 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #0f4c75;
   }
+
+  .valid {
+    color: forestgreen;
+  }
+
+  .invalid {
+    color: red;
+  }
   
   .container {
     margin-top: 40px;
