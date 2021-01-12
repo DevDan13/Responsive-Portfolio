@@ -1,0 +1,24 @@
+{
+  "name": "Responsive-Portfolio",
+  "version": "1.0.0",
+  "description": "* **In this second assignment I creaded three html files contain the following:**\r     * the created files are index.html, portfolio.html, and contact.html.\r     * each of these files contain the same nav bar.\r     * each separate file links to each other properly as required.",
+  "main": "contact.js",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevDan13/Responsive-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevDan13/Responsive-Portfolio/issues"
+  },
+  "homepage": "https://github.com/DevDan13/Responsive-Portfolio#readme"
+}
