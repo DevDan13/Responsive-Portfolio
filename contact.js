@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $(".submit").on("click", function(event){
         //console.log("clicked button");
+        event.preventDefault();
 
         let email = $(".email").val();
         let subject = $(".subject").val();
@@ -21,7 +22,6 @@ $(document).ready(function () {
         }
         else {
             //console.log("invalid email!!!");
-            event.preventDefault();
             emailStatusElm.append("<div class='invalid'>Invalid E-mail</div>");
         }
 
@@ -29,7 +29,6 @@ $(document).ready(function () {
             subjectStatusElm.append("<div class='valid'>Valid subject</div>");
         }
         else{
-            event.preventDefault();
             subjectStatusElm.append("<div class='invalid'>Invalid subject</div>");
         }
 
@@ -37,7 +36,6 @@ $(document).ready(function () {
             messageStatusElm.append("<div class='valid'>Message can be sent</div>");
         }
         else{
-            event.preventDefault();
             messageStatusElm.append("<div class='invalid'>Message cannot be sent</div>");
         }
     })

@@ -1,105 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <!-- this navbar is shared between all three files.  contains links to the other pages and is collapsable.  set to be dark to better display on the page-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-color">
-        <a class="navbar-brand" href="#">Daniel Cintron</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="contact.html">Contact</a>
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-          </div>
-        </div>
-      </nav>
+  <!-- this navbar is shared between all three files.  contains links to the other pages and is collapsable.  set to be dark to better display on the page-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-color">
+    <a class="navbar-brand" href="#">Daniel Cintron</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="index.html">About</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </div>
+    </div>
+  </nav>
 
-<!-- this class container contains the card with name contact and the form fields name, email, and message.
+  <!-- this class container contains the card with name contact and the form fields name, email, and message.
      contains a submit button.  bootsrap grid used for organization.  further css used to organize.
      programmed in the css to be mobile responsive and when the width is lower than 600 pixels the colums will stack on top of each other.-->
-    <div class="container my-portfolio-container">
-      <form action="https://formspree.io/dan1397732@gmail.com" method="post"></form>
-        <div class="row">
-            <div class="card card-color" style="width: 80rem;" style="height: 85rem;">
-                <div class="card-body">
-                <h5 class="card-title d-flex justify-content-center"><strong>Contact</strong></h5>
-                <hr>
-                
-                <div class="form-group">
+  <div class="container my-portfolio-container">
+    <div class="row">
+      <div class="card card-color" style="width: 80rem;" style="height: 85rem;">
+        <div class="card-body">
+          <h5 class="card-title d-flex justify-content-center"><strong>Contact</strong></h5>
+          <hr>
 
-                  <div class="row">
+          <div class="row">
 
-                    <div class="col-15">
-                      <label for="userName">E-mail</label>
-                    </div>
-
-                    <div class="col-85">
-                      <input type="text" class="form-control user-data email" placeholder="Enter E-mail">
-                      <div class="emailStatus"></div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div class="form-group">
-
-                  <div class="row">
-
-                    <div class="col-15">
-                      <label for="userSubject">Subject</label>
-                    </div>
-
-                    <div class="col-85">
-                      <input type="text" class="form-control user-data subject" placeholder="Enter Subject">
-                      <div class="subjectStatus"></div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div class="form-group">
-
-                  <div class="row">
-
-                    <div class="col-15">
-                      <label for="userMessage">Messsage</label>
-                    </div>
-
-                    <div class="col-85">
-                      <textarea class="user-data message" name="Message" placeholder="Write something.." style="height:150px"></textarea>
-                      <div class="messageStatus"></div>
-                    </div>
-                    
-                  </div>
-
-                </div>
-                
-                <div class="row">
-                  <input type="submit" class="submit" value="Submit">
-                </div>
-
-                </div>
+            <div class="col-15">
+              <p>Please E-mail me at <a href="mailto:dan1397732@gmail.com">dan1397732@gmail.com</a></p>
+              <p>Click to send me an email and I'll be happy to hear from you.</p>
             </div>
+
+          </div>
+
         </div>
-      </form>
+
+      </div>
+
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./contact.js"></script>
+  </div>
+  </div>
+  </div>
+  </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="./contact.js"></script> -->
 </body>
 
 </html>
